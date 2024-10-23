@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/mode1_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="โหมด 1 : เก็บเงินชุดใหญ่ไฟกระพริบ" />
+
+    <Button
+        android:id="@+id/mode2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="โหมด 2 : เซ็ตระดับเสี่ย" />
+
+    <Button
+        android:id="@+id/mode3_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="โหมด 3 : เซ็ตระดับหัวจ่าย" />
+
+    <Button
+        android:id="@+id/mode4_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="โหมด 4 : เซ็ตสุลต่าน" />
+
+    <Button
+        android:id="@+id/mode5_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="โหมด 5 : เซ็ตลูกคุณหนู" />
+
+
+
+    <!-- เพิ่มปุ่มโหมดอื่น ๆ ได้ที่นี่ -->
+
+</LinearLayout>

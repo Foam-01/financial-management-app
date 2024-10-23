@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <!-- ไอคอนประเภท อยู่ซ้ายสุด -->
+    <ImageView
+        android:id="@+id/transaction_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_default" />
+
+    <!-- ชื่อประเภท อยู่ตรงกลาง -->
+    <TextView
+        android:id="@+id/transaction_category"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="หมวดหมู่"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- จำนวนเงิน อยู่ขวาสุด -->
+    <TextView
+        android:id="@+id/transaction_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="จำนวน"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</LinearLayout>

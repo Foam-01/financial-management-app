@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- ส่วนแสดงยอดรวมรายรับ รายจ่าย และยอดเงินคงเหลือ -->
+    <TextView
+        android:id="@+id/total_income_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="รายรับที่ได้: 0"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/total_expense_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="รายจ่ายที่ได้: 0"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/total_balance_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ยอดเงินคงเหลือ: 0"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="รีเซ็ตข้อมูล" />
+
+
+    <!-- RecyclerView สำหรับแสดงรายการธุรกรรม -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/transaction_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- ปุ่มสำหรับเพิ่มรายการธุรกรรมใหม่ -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_transaction_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add"
+        android:contentDescription="Add transaction"
+        android:backgroundTint="@color/colorPrimary" />
+
+</LinearLayout>

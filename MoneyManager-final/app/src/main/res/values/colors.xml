@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFA07A</color> <!-- สีส้มอ่อน -->
+    <color name="colorPrimaryVariant">#FF8C00</color> <!-- สีส้มเข้มกว่า -->
+    <color name="colorAccent">#FFDAB9</color> <!-- สีส้มเน้น -->
+    <color name="green">#4CAF50</color> <!-- สีเขียว -->
+    <color name="red">#F44336</color><!-- สีแดง -->
+    <color name="black">#171515</color><!-- สีดำ -->
+    <color name="gray">#737D7C</color><!-- สีเทา -->
+    <color name="white">#FFFFFF</color><!-- สีขาว -->
+    <color name="grays">#A4A4A4</color><!-- สีเทาอ่อน -->
+</resources>
